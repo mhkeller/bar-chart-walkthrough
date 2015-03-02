@@ -1,5 +1,17 @@
 Bar Chart Walkthrough
 ===
 
-A walkthrough of making bar charts and using jQuery UI to modify them.
+A walkthrough of making bar charts.
+
+### Data source
+
+
+
+Name: DHS Daily Report 
+
+Provided by: Department of Homeless Services (DHS)
+
+Description: "This dataset includes the daily number of families and individuals residing in the Department of Homeless Services (DHS) shelter system and the daily number of families applying to the DHS shelter system."
+
+Link: <https://data.cityofnewyork.us/Social-Services/DHS-Daily-Report/k46n-sa2m>
 

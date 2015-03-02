@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Guinea",
+    "cases_total": 14026,
+    "deaths_total": 9860
+	},
+	{
+    "name": "Liberia",
+    "cases_total": 7002,
+    "deaths_total": 3873
+	},
+	{
+    "name": "Sierra Leone",
+    "cases_total": 9881,
+    "deaths_total": 4166
+	},
+	{
+    "name": "Nigeria",
+    "cases_total": 85,
+    "deaths_total": 21
+	}
+]

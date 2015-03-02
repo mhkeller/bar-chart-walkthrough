@@ -1,6 +1,31 @@
 * {
+	font-family: Helvetica, sans-serif;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 
+#canvas{
+	width: 80%;
+}
+
+.country-group{
+	height: 35px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.cases-bar{
+	background-color: steelblue;
+	height: 20px;
+	position: relative;
+}
+
+.label{
+	color: #ccc;
+	font-size: 10px;
+	padding-top: 5px;
+	right: 0;
+	position: absolute;
+	transform: translateX(110%);
+}
