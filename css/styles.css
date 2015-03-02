@@ -15,10 +15,11 @@
 	width: 100%;
 }
 
-.cases-bar{
+.bar{
 	background-color: steelblue;
 	height: 20px;
 	position: relative;
+	transition: width 400ms linear;
 }
 
 .label{
@@ -28,4 +29,10 @@
 	right: 0;
 	position: absolute;
 	transform: translateX(110%);
+}
+
+.button{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
 }
