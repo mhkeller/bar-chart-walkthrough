@@ -5,7 +5,13 @@ A walkthrough of making bar charts.
 
 ### Data source
 
+#### Ebola 
 
+Name: Ebola total by country
+
+Provided by: WHO
+
+#### NYC Homelessness
 
 Name: DHS Daily Report 
 
