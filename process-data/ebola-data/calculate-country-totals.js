@@ -7,8 +7,8 @@ var nested_by_country = d3.nest()
 	.key(function(d){ return d.country_name; })
 	.rollup(function(list){
 		return {
-			cases_total: d3.sum(list, function(d){ return d.cases; }),
-			deaths_total: d3.sum(list, function(d){ return d.deaths; }),
+			cases: d3.sum(list, function(d){ return d.cases; }),
+			deaths: d3.sum(list, function(d){ return d.deaths; }),
 		}
 	})
 	.entries(ebola_data);
