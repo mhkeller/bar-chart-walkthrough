@@ -1,0 +1,16 @@
+{
+  "name": "nyc-dhs-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aggregate-by-month.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Keller",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "indian-ocean": "^0.1.0",
+    "moment": "^2.9.0"
+  }
+}
