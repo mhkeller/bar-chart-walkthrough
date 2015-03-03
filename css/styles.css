@@ -4,3 +4,42 @@
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+
+.country-group{
+	margin: 35px;
+	width: 75%;
+}
+
+.bar{
+	height: 25px;
+	background-color: steelblue;
+	position: relative;
+	transition: width 500ms cubic-bezier(0.785, 0.135, 0.150, 0.860);;
+}
+
+.number{
+	color: #000;
+	font-size: 12px;
+	padding-top: 5px;
+	position: absolute;
+	right: 0;
+	transform: translateX(115%);
+}
+
+.button{
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+.button.active{
+	border: 1px solid #000;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
